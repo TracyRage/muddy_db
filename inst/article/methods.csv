@@ -1,0 +1,58 @@
+pmid,title,pcr,genes,omics,sequencing,chromatography,spectrometry,microscopy_staining,microbiology,blots,electrophoresis,core
+25807542,The Unique Chemistry of Eastern Mediterranean Water Masses Selects for Distinct Microbial Communities by Depth,-,16S (7),-,Illumina (1),-,-,-,-,-,-,"salinity (17), Salinity (4), pH (3)"
+25763031,Plant growth promoting capability and genetic diversity of bacteria isolated from mud volcano and lime cave of Andaman and Nicobar Islands,PCR (8),-,-,-,-,-,-,"culture (11), Culture (2)",-,-,"pH (4), conductivity (1), salinity (1)"
+19783748,"Molecular Characterization of Potential Nitrogen Fixation by Anaerobic Methane-Oxidizing Archaea in the Methane Seep Sediments at the Number 8 Kumano Knoll in the Kumano Basin, Offshore of Japan","PCR (10), RT-PCR (10), qPCR (11)","nifH (93), 16S (23), mcrA (51)",-,-,GC (1),-,-,culture (1),-,-,-
+24722631,Diverse sulfate-reducing bacteria of the Desulfosarcina/Desulfococcus clade are the key alkane degraders at marine seeps,-,"16S (8), assA (1)",-,pyrosequencing (1),-,-,CARD-FISH (3),"culture (3), SIP (12)",-,-,pH (1)
+22180538,Unsupervised discovery of microbial population structure within metagenomes using nucleotide base composition,-,16S (1),-,-,GC (3),-,-,-,-,-,-
+24116017,Methane-Carbon Flow into the Benthic Food Web at Cold Seeps – A Case Study from the Costa Rica Subduction Zone,PCR (3),"16S (8), 16s (1)",-,-,"GC (1), GC-MS (1), GC-IRMS (1)",-,"CARD-FISH (4), DAPI (1), FISH (1)",-,-,-,conductivity (1)
+25384013,Differences in Life-Histories Refute Ecological Equivalence of Cryptic Species and Provide Clues to the Origin of Bathyal Halomonhystera (Nematoda),PCR (1),-,-,-,-,-,-,culture (1),-,-,"salinity (37), Salinity (1)"
+24723919,Spatial variations of community structures and methane cycling across a transect of Lei-Gong-Hou mud volcanoes in eastern Taiwan,"PCR (10), qPCR (5)","16S (18), mcrA (7), pmoA (7)",-,-,-,-,-,culture (3),-,-,salinity (2)
+17051217,Novel microbial communities of the Haakon Mosby mud volcano and their role as a methane sink,-,16S (3),-,-,HPLC (1),-,FISH (2),-,-,-,pH (1)
+28396389,Subduction zone forearc serpentinites as incubators for deep microbial life,-,-,-,-,-,Raman (15),"SEM (1), TEM (2)",-,-,-,"pH (2), conductivity (3)"
+29674649,Mud extrusion and ring-fault gas seepage – upward branching fluid discharge at a deep-sea mud volcano,-,-,-,-,GC-IRMS (1),-,-,-,-,-,"salinity (2), Conductivity (1)"
+22170423,Viral infections stimulate the metabolism and shape prokaryotic assemblages in submarine mud volcanoes,-,-,-,-,GC (1),-,CARD-FISH (4),-,-,-,pH (3)
+22347218,A System for Incubations at High Gas Partial Pressure,-,-,-,-,HPLC (9),-,-,culture (2),-,-,"conductivity (1), pH (9)"
+22882187,Anaerobic oxidation of methane in hypersaline cold seep sediments,PCR (6),16S (4),-,-,GC (2),-,"FISH (5), CARD-FISH (5), DAPI (1)",-,-,-,"salinity (12), conductivity (2), pH (1)"
+20334908,Colonization of organic substrates deployed in deep-sea reducing habitats by symbiotic species and associated fauna,PCR (5),-,-,-,-,-,FISH (2),-,-,-,-
+17225386,Acoustic scattering from mud volcanoes and carbonate mounds,-,-,-,-,-,-,-,-,-,page (1),salinity (2)
+18378658,"Biogeochemistry and Community Composition of Iron- and Sulfur-Precipitating Microbial Mats at the Chefren Mud Volcano (Nile Deep Sea Fan, Eastern Mediterranean)",PCR (1),16S (14),-,-,-,-,"FISH (11), CARD-FISH (6), DAPI (2), SEM (2)",culture (1),-,-,salinity (1)
+27103730,"Draft Genome Sequence of Methanoculleus sediminis S3FaT, a Hydrogenotrophic Methanogen Isolated from a Submarine Mud Volcano in Taiwan",-,-,-,Illumina (1),-,-,-,-,-,-,-
+29163423,"Microbial Community Composition and Functional Capacity in a Terrestrial Ferruginous, Sulfate-Depleted Mud Volcano",PCR (6),"16S (22), aprA (5), AprA (2), mcrA (2)",metagenomics (1),Illumina (3),GC (2),-,-,-,-,-,"conductivity (1), pH (2)"
+22006301,"Early Archean serpentine mud volcanoes at Isua, Greenland, as a niche for early life",-,-,-,-,-,-,SEM (1),-,-,-,pH (12)
+24614846,"Methanococcoides vulcani sp. nov., a marine methylotrophic methanogen that uses betaine, choline and N,N-dimethylethanolamine for methanogenesis, isolated from a mud volcano, and emended description of the genus Methanococcoides.",PCR (4),"16S (8), mcrA (7)",-,-,HPLC (2),-,-,culture (1),-,-,"pH (11), salinity (1)"
+21976991,"Chemosymbiotic bivalves from the mud volcanoes of the Gulf of Cadiz, NE Atlantic, with descriptions of new species of Solemyidae, Lucinidae and Vesicomyidae",-,16S (1),-,-,-,-,-,-,-,-,-
+28151382,"Pyrobaculum igneiluti sp. nov., a novel anaerobic hyperthermophilic archaeon that reduces thiosulfate and ferric iron",PCR (1),16S (10),-,Illumina (3),-,-,-,culture (2),-,-,pH (16)
+17369343,Diversity and Abundance of Aerobic and Anaerobic Methane Oxidizers,PCR (5),"mcrA (23), 16S (18)",-,-,-,-,"FISH (10), DAPI (6), CARD-FISH (5)",culture (3),-,-,pH (3)
+27881974,The Microbiome and Occurrence of Methanotrophy in Carnivorous Sponges,PCR (8),"16S (8), 16s (2)",-,-,-,-,TEM (4),-,-,-,pH (1)
+25393146,Stratified Community Responses to Methane and Sulfate Supplies in Mud Volcano Deposits: Insights from an In Vitro Experiment,PCR (9),-,-,-,GC (2),-,"CARD-FISH (2), DAPI (3)",-,-,-,pH (1)
+17431711,Use of 16S rRNA Gene Based Clone Libraries to Assess Microbial Communities Potentially Involved in Anaerobic Methane Oxidation in a Mediterranean Cold Seep,"PCR (10), RT-PCR (1)",16S (30),metagenomics (1),-,-,-,FISH (1),culture (1),-,-,"pH (5), salinity (1)"
+25384354,Eruption of a deep-sea mud volcano triggers rapid sediment movement,-,-,-,-,-,-,-,-,-,-,-
+23001649,"Choline and N,N-Dimethylethanolamine as Direct Substrates for Methanogens",PCR (5),"16S (6), mcrA (3)",-,-,-,-,-,culture (1),-,-,"pH (1), conductivity (2)"
+26637468,"Transcription, Signaling Receptor Activity, Oxidative Phosphorylation, and Fatty Acid Metabolism Mediate the Presence of Closely Related Species in Distinct Intertidal and Cold-Seep Habitats",-,-,-,Illumina (5),GC (15),UV-Vis (1),-,-,-,-,salinity (7)
+26667806,"A chemosynthetic weed: the tubeworm Sclerolinum contortum is a bipolar, cosmopolitan species",PCR (8),16S (12),-,-,-,-,SEM (5),-,-,-,-
+27807343,Increased methane emissions from deep osmotic and buoyant convection beneath submarine seeps as climate warms,-,-,-,-,-,-,-,-,-,-,salinity (3)
+19770067,Structural characterization of hemoglobins from Monilifera and Frenulata tubeworms (Siboglinids): First discovery of giant hexagonal-bilayer hemoglobin in the former “Pogonophora” group,-,16S (1),-,-,-,-,TEM (11),-,-,-,pH (1)
+22739492,Metabolic stratification driven by surface and subsurface interactions in a terrestrial mud volcano,PCR (2),16S (9),-,pyrosequencing (1),-,-,-,-,-,-,"conductivity (1), pH (2), salinity (2)"
+28771029,Methane Seepage on Mars: Where to Look and Why,-,-,-,-,-,-,-,-,-,-,"pH (1), conductivity (1)"
+28944134,CO2 flux from Javanese mud volcanism,-,-,-,-,-,-,-,-,-,-,-
+26394007,Activity and interactions of methane seep microorganisms assessed by parallel transcription and FISH-NanoSIMS analyses,PCR (6),"nifH (19), 16S (15), mcrA (18), aprA (17)",-,-,-,-,"FISH-NanoSIMS (16), NanoSIMS (7), DAPI (3), FISH (8), CARD-FISH (4)",-,-,-,-
+28676800,Atribacteria from the Subseafloor Sedimentary Biosphere Disperse to the Hydrosphere through Submarine Mud Volcanoes,PCR (15),16S (21),-,Illumina (2),GC (1),-,"CARD-FISH (11), DAPI (1)",-,-,-,"conductivity (1), pH (1)"
+15803662,"Novel archaeal macrocyclic diether core membrane lipids in a methane-derived carbonate crust from a mud volcano in the Sorokin Trough, NE Black Sea.",-,16S (1),-,-,"GC (4), GC-MS (5)",-,-,-,-,-,-
+21382146,"Methanogenic diversity and activity in hypersaline sediments of the centre of the Napoli mud volcano, Eastern Mediterranean Sea",-,"16S (5), mcrA (15)",-,-,GC (1),-,-,-,-,DGGE (3),"salinity (10), Salinity (1), conductivity (1)"
+19622643,"Belliella pelovolcani sp. nov., isolated from a mud-volcano in Taiwan.",-,16S (4),-,-,HPLC (2),-,-,culture (2),-,-,pH (6)
+22458514,"Methanogenic activity and diversity in the centre of the Amsterdam Mud Volcano, Eastern Mediterranean Sea",-,"16S (1), mcrA (2)",-,-,GC (1),-,-,-,-,-,conductivity (2)
+25059877,"Draft Genome Sequence of Lutibaculum baratangense Strain AMV1T, Isolated from a Mud Volcano in Andamans, India",-,16S (1),-,pyrosequencing (1),-,-,-,-,-,-,-
+20656812,"Cesiribacter andamanensis gen. nov., sp. nov., isolated from a soil sample from a mud volcano",-,16S (7),-,-,HPLC (1),UV-Vis (1),-,culture (1),-,-,pH (9)
+22021575,"Lutibaculum baratangense gen. nov., sp. nov., a proteobacterium isolated from a mud volcano",-,16S (11),-,-,"GC (1), HPLC (1)",UV-Vis (1),-,culture (1),-,-,pH (8)
+23682146,"Draft Genome Sequence of Cesiribacter andamanensis Strain AMV16T, Isolated from a Soil Sample from a Mud Volcano in the Andaman Islands, India",-,16S (1),-,pyrosequencing (1),-,-,-,-,-,-,-
+28708168,Portable laser spectrometer for airborne and ground-based remote sensing of geological CO_2 emissions,-,-,-,-,-,-,-,-,-,-,-
+29928689,Deep-biosphere methane production stimulated by geofluids in the Nankai accretionary complex,PCR (4),16S (15),-,-,GC (2),-,-,culture (1),-,-,"salinity (1), conductivity (1)"
+30154496,In situ development of a methanotrophic microbiome in deep-sea sediments,"PCR (1), qPCR (1)","16S (10), pmoA (3), mcrA (4)",-,"pyrosequencing (1), Illumina (1)",-,-,"DAPI (3), CARD-FISH (3)",-,-,-,pH (2)
+30165492,Steep redox gradient and biogeochemical cycling driven by deeply sourced fluids and gases in a terrestrial mud volcano,"PCR (5), qPCR (4)","16S (14), pmoA (6), dsrB (6)",-,-,GC (3),-,-,culture (1),-,-,"conductivity (2), pH (5), salinity (2)"
+31281306,Deep-Sourced Fluids From a Convergent Margin Host Distinct Subseafloor Microbial Communities That Change Upon Mud Flow Expulsion,PCR (4),16S (6),-,Illumina (3),GC (1),-,-,-,-,-,"Salinity (1), pH (7)"
+25908706,"Aquipuribacter nitratireducens sp. nov., isolated from a soil sample of a mud volcano",-,16S (7),-,-,"GC (1), HPLC (1)",UV-Vis (1),TEM (2),-,-,-,pH (12)
+21335391,Archaeal Populations in Hypersaline Sediments Underlying Orange Microbial Mats in the Napoli Mud Volcano,PCR (5),"16S (7), mcrA (5)",-,-,-,-,-,-,-,DGGE (3),salinity (5)
+27394559,Two new species of scale worms (Polychaeta: Aphroditiformia) from deep-sea habitats in the Gulf of Cadiz (NE Atlantic),-,-,-,-,-,-,-,-,-,-,-
+31772218,Discriminative biogeochemical signatures of methanotrophs in different chemosynthetic habitats at an active mud volcano in the Canadian Beaufort Sea,-,16S (9),-,Illumina (2),GC (1),-,-,-,-,-,-
+31942015,Discharge of deeply rooted fluids from submarine mud volcanism in the Taiwan accretionary prism,-,-,-,-,GC (1),-,-,-,-,-,-
+31988316,Mud volcanoes and the presence of PAHs,PCR (1),"mcrA (1), 16S (1)","metagenomics (1), metabarcoding (5)",-,"GC-MS (5), GC (2)",-,-,-,-,-,"pH (3), salinity (3), conductivity (3)"

@@ -16,7 +16,10 @@ Imports:
     attempt,
     DT,
     glue,
-    htmltools
+    htmltools,
+    semantic.dashboard,
+    readr,
+    leaflet
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
