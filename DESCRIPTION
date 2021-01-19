@@ -1,0 +1,27 @@
+Package: muddy
+Title: muddy_db
+Version: 0.0.0.9000
+Authors@R: person('Alexei', 'Remizovschi', email = 'alexei.remizovschi@protonmail.ch', role = c('cre', 'aut'))
+Description: App muddy_db represents a biologically-oriented mud
+  volcano database. It aggregates mud volcano specific terminology and taxonomy, 
+  which were mined from open-access articles available in the S2ORC database.
+  In order to extract tokens of interest, we used scispaCy models and NCBI
+  Taxonomy database.
+License: MIT + file LICENSE
+Imports: 
+    config,
+    golem,
+    shiny,
+    processx,
+    attempt,
+    DT,
+    glue,
+    htmltools
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+URL: https://github.com/TracyRage/muddy_db
+BugReports: https://github.com/TracyRage/muddy_db/issues
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
