@@ -60,7 +60,8 @@ app_ui <- function(request) {
       tabItem(tabName = "map", mod_map_ui("map_ui_1")),
       tabItem(tabName = "article", mod_articles_ui("articles_ui_1")),
       tabItem(tabName = "archaea", mod_archaea_ui("archaea_ui_1")),
-      tabItem(tabName = "bacteria", mod_bacteria_ui("bacteria_ui_1"))
+      tabItem(tabName = "bacteria", mod_bacteria_ui("bacteria_ui_1")),
+      tabItem(tabName = "chemistry", mod_chemistry_ui("chemistry_ui_1"))
     )
   )
   

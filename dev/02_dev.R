@@ -18,6 +18,7 @@
 usethis::use_package( "semantic.dashboard" )
 usethis::use_package( "readr" )
 usethis::use_package( "leaflet" )
+usethis::use_package( "dplyr" )
 
 ## Add modules ----
 ## Create a module infrastructure in R/
@@ -25,6 +26,7 @@ golem::add_module( name = "map" ) # Name of the module
 golem::add_module( name = "articles" ) # Name of the module
 golem::add_module( name = "archaea" ) # Name of the module
 golem::add_module( name = "bacteria" ) # Name of the module
+golem::add_module( name = "chemistry" ) # Name of the module
 
 ## Add helper functions ----
 ## Creates ftc_* and utils_*

@@ -21,15 +21,19 @@ mod_articles_ui <- function(id){
   )
   
   # Create header
-  header <- h2(
-    class = "ui header", semantic.dashboard::icon("database"),
-    div(
-      class = "content", "Mud volcano biological database",
-      div(
-        class = "subheader", 
-        "Database general information (mined articles)",
-        style = "font-size:20px;")),
-    style = "color:black;")
+  # header <- h2(
+  #   class = "ui header", semantic.dashboard::icon("database"),
+  #   div(
+  #     class = "content", "Mud volcano biological database",
+  #     div(
+  #       class = "subheader", 
+  #       "Database general information (mined articles)",
+  #       style = "font-size:20px;")),
+  #   style = "color:black;")
+  
+  header <- render_header("database",
+                          "Mud volcano biological database",
+                          "Database general information (mined articles)")
   
   # Create table
   table <- fluidRow(

@@ -11,17 +11,8 @@ mod_bacteria_ui <- function(id){
   ns <- NS(id)
   
   # Create header
-  header <- fluidRow(
-    semantic.dashboard::column(
-      6, h2(
-        class = "ui header", 
-        semantic.dashboard::icon("bug"),
-        div(class = "content", "Bacterial mined data",
-            div(
-              class = "subheader", 
-              "Incidence of bacterial taxonomy in mined articles",
-              style = "font-size:20px;")),
-        style = "color:black;")))
+  header <- render_header("bug", "Bacterial mined data",
+                          "Incidence of bacterial taxonomy in mined articles")
   
   # Create table
   table <- fluidRow(

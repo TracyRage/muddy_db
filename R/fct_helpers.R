@@ -43,3 +43,64 @@ render_map <- function(reviewed_coordinates, unreviewed_coordinates) {
     
     # Add provider map
     addProviderTiles(providers$CartoDB.DarkMatter)}
+
+
+
+#' UI  create separator 
+#' 
+#' @description mod_chemistry.R devider function
+#' 
+#' @noRd
+render_separator <- function(description) {
+  div(class = "ui horizontal divider",
+      semantic.dashboard::icon("tags"),
+      description)}
+
+#' UI create header
+#' 
+#' @description  Create title headers
+#' 
+#' @noRd
+render_header <- function(icon, header, subheader) {
+  fluidRow(semantic.dashboard::column(16,
+    h2(class = "ui header", 
+       semantic.dashboard::icon(icon),
+       div(class = "content", 
+           header,
+           div(class = "subheader", 
+               subheader,
+               style = "font-size:20px;")),
+       style = "color:black;")))
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -12,15 +12,8 @@ mod_archaea_ui <- function(id){
   ns <- NS(id)
   
   # Create header
-  header <- fluidRow(semantic.dashboard::column(6,
-    h2(
-      class = "ui header", semantic.dashboard::icon("bug"),
-       div(class = "content", "Archaeal mined data",
-           div(
-             class = "subheader", "Incidence of archaeal taxonomy in mined articles",
-               style = "font-size:20px;")),
-       style = "color:black;"))
-  )
+  header <- render_header("bug", "Archaeal mined data",
+                          "Incidence of archaeal taxonomy in mined articles")
   
   # Create table
   
