@@ -33,5 +33,17 @@ app_server <- function( input, output, session ) {
   
   # Contact server-side
   callModule(mod_contact_server, "contact_ui_1")
+  
+  # Archaea abstract server-side
+  callModule(mod_abstract_archaea_server, "abstract_archaea_ui_1")
+  
+  # Bacteria abstract server-side
+  callModule(mod_abstract_bacteria_server, "abstract_bacteria_ui_1")
+  
+  # Chemistry abstract server-side
+  callModule(mod_abstract_chemistry_server, "abstract_chemistry_ui_1")
+  
+  # Mud volcano abstract server-side
+  callModule(mod_abstract_volcano_server, "abstract_volcano_ui_1")
 
 }

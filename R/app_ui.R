@@ -65,9 +65,15 @@ app_ui <- function(request) {
       tabItem(tabName = "volcano", mod_volcano_ui("volcano_ui_1")),
       tabItem(tabName = "methods",  mod_methods_ui("methods_ui_1")),
       tabItem(tabName = "geology", mod_geology_ui("geology_ui_1")),
-      tabItem(tabName = "contact",  mod_contact_ui("contact_ui_1"))
-    )
-  )
+      tabItem(tabName = "contact",  mod_contact_ui("contact_ui_1")),
+      tabItem(tabName = "abs_archaea", 
+              mod_abstract_archaea_ui("abstract_archaea_ui_1")),  
+      tabItem(tabName = "abs_bacteria", 
+              mod_abstract_bacteria_ui("abstract_bacteria_ui_1")),
+      tabItem(tabName = "abs_chem", 
+              mod_abstract_chemistry_ui("abstract_chemistry_ui_1")),
+      tabItem(tabName = "abs_volcano",  
+              mod_abstract_volcano_ui("abstract_volcano_ui_1")))) 
   
   # Create dashboard
   dashboardPage(title = "muddy_db - mud volcano database",
