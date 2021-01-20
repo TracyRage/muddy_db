@@ -19,7 +19,19 @@ app_server <- function( input, output, session ) {
   # Bacteria server-side
   callModule(mod_bacteria_server, "bacteria_ui_1")
   
-  #Chemistry server-side
+  # Chemistry server-side
   callModule(mod_chemistry_server, "chemistry_ui_1")
+  
+  # Mud volcano server-side
+  callModule(mod_volcano_server, "volcano_ui_1")
+  
+  # Methods server-side
+  callModule(mod_methods_server, "methods_ui_1")
+  
+  # Geology server-side
+  callModule(mod_geology_server, "geology_ui_1")
+  
+  # Contact server-side
+  callModule(mod_contact_server, "contact_ui_1")
 
 }

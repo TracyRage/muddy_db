@@ -1,6 +1,6 @@
 #' chemistry UI Function
 #'
-#' @description Chemistry mined data from articles
+#' @description Chemistry mined data from articles.
 #'
 #' @param id,input,output,session Internal parameters for {shiny}.
 #'

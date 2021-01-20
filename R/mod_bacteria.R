@@ -1,6 +1,6 @@
 #' bacteria UI Function
 #'
-#' @description A shiny Module.
+#' @description Archaeal mined taxonomy from articles.
 #'
 #' @param id,input,output,session Internal parameters for {shiny}.
 #'

@@ -16,6 +16,7 @@
 ## Dependencies ----
 ## Add one line by package you want to add as dependency
 usethis::use_package( "semantic.dashboard" )
+usethis::use_package( "shiny.semantic" )
 usethis::use_package( "readr" )
 usethis::use_package( "leaflet" )
 usethis::use_package( "dplyr" )
@@ -27,6 +28,10 @@ golem::add_module( name = "articles" ) # Name of the module
 golem::add_module( name = "archaea" ) # Name of the module
 golem::add_module( name = "bacteria" ) # Name of the module
 golem::add_module( name = "chemistry" ) # Name of the module
+golem::add_module( name = "volcano" ) # Name of the module
+golem::add_module( name = "geology" ) # Name of the module
+golem::add_module( name = "methods" ) # Name of the module
+golem::add_module( name = "contact" ) # Name of the module
 
 ## Add helper functions ----
 ## Creates ftc_* and utils_*

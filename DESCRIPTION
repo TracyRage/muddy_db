@@ -20,7 +20,8 @@ Imports:
     semantic.dashboard,
     readr,
     leaflet,
-    dplyr
+    dplyr,
+    shiny.semantic
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
