@@ -1,6 +1,7 @@
 # library(golem)
 # 
-# Test these functions in RStudio; 
+# Uncomment these functions and test in RStudio; 
+# Conflicts with Git Actions
 #
 # test_that("app ui", {
 #   ui <- app_ui()
