@@ -20,6 +20,8 @@ usethis::use_package( "shiny.semantic" )
 usethis::use_package( "readr" )
 usethis::use_package( "leaflet" )
 usethis::use_package( "dplyr" )
+usethis::use_package( "charlatan" )
+usethis::use_package( "tibble" )
 
 ## Add modules ----
 ## Create a module infrastructure in R/
@@ -54,7 +56,7 @@ usethis::use_data_raw( name = "my_dataset", open = FALSE )
 
 ## Tests ----
 ## Add one line by test you want to create
-usethis::use_test( "app" )
+usethis::use_test( "fct_helpers" )
 
 # Documentation
 
