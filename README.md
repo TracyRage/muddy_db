@@ -1,61 +1,74 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# muddy
+# muddy\_db <img src="man/figures/README-hex.png" align="right" alt="" width="120" />
 
 <!-- badges: start -->
 
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+![R-CMD-check](https://github.com/TracyRage/muddy_db/workflows/R-CMD-check/badge.svg)
 <!-- badges: end -->
 
-The goal of muddy is to …
+### Description
 
-## Installation
+**muddy\_db** represents a biologically-oriented mud volcano database.
+It aggregates mud volcano specific terminology and taxonomy, which were
+mined from open-access articles, available in the
+[S2ORC](https://github.com/allenai/s2orc/) database (Lo et al. 2020). We
+used [ScispaCy](https://github.com/allenai/scispacy) (Neumann et al.
+2019) models and [ETE3](https://github.com/etetoolkit/ete)
+(Huerta-Cepas, Serra, and Bork 2016) library to check taxonomy-flavored
+tokens against [NCBI Taxonomy](ftp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/)
+database.
 
-You can install the released version of muddy from
-[CRAN](https://CRAN.R-project.org) with:
+Check our mining pipeline:
+[muddy\_mine](https://github.com/TracyRage/muddy_mine)
 
-``` r
-install.packages("muddy")
-```
+### Data
 
-## Example
+**muddy\_db** includes the following data:
 
-This is a basic example which shows you how to solve a common problem:
+  - Bacterial and archaeal taxonomy (phylum, class, order, family,
+    genus)
+  - Chemistry (inorganic ions, hydrocarbons)
+  - Geology (geological periods, minerals)
+  - Mud volcano specific data (microbial consortia, metabolic pathways
+    etc.)
+  - Methods (amplified genes, analytics)
 
-``` r
-library(muddy)
-#> Warning: replacing previous import 'semantic.dashboard::icon' by 'shiny::icon'
-#> when loading 'muddy'
-#> Warning: replacing previous import 'semantic.dashboard::column' by
-#> 'shiny::column' when loading 'muddy'
-## basic example code
-```
+### References
 
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:
+<div id="refs" class="references">
 
-``` r
-summary(cars)
-#>      speed           dist       
-#>  Min.   : 4.0   Min.   :  2.00  
-#>  1st Qu.:12.0   1st Qu.: 26.00  
-#>  Median :15.0   Median : 36.00  
-#>  Mean   :15.4   Mean   : 42.98  
-#>  3rd Qu.:19.0   3rd Qu.: 56.00  
-#>  Max.   :25.0   Max.   :120.00
-```
+<div id="ref-cepas_2016">
 
-You’ll still need to render `README.Rmd` regularly, to keep `README.md`
-up-to-date. `devtools::build_readme()` is handy for this. You could also
-use GitHub Actions to re-render `README.Rmd` every time you push. An
-example workflow can be found here:
-<https://github.com/r-lib/actions/tree/master/examples>.
+Huerta-Cepas, Jaime, François Serra, and Peer Bork. 2016. “ETE 3:
+Reconstruction, Analysis, and Visualization of Phylogenomic Data.”
+*Molecular Biology and Evolution* 33 (6): 1635–8.
+<https://doi.org/10.1093/molbev/msw046>.
 
-You can also embed plots, for example:
+</div>
 
-<img src="man/figures/README-pressure-1.png" width="100%" />
+<div id="ref-lo-wang-2020-s2orc">
 
-In that case, don’t forget to commit and push the resulting figure
-files, so they display on GitHub and CRAN.
+Lo, Kyle, Lucy Lu Wang, Mark Neumann, Rodney Kinney, and Daniel Weld.
+2020. “S2ORC: The Semantic Scholar Open Research Corpus.” In
+*Proceedings of the 58th Annual Meeting of the Association for
+Computational Linguistics*, 4969–83. Online: Association for
+Computational Linguistics.
+<https://doi.org/10.18653/v1/2020.acl-main.447>.
+
+</div>
+
+<div id="ref-neumann_2019_scispacy">
+
+Neumann, Mark, Daniel King, Iz Beltagy, and Waleed Ammar. 2019.
+“ScispaCy: Fast and Robust Models for Biomedical Natural Language
+Processing.” In *Proceedings of the 18th Bionlp Workshop and Shared
+Task*, 319–27. Florence, Italy: Association for Computational
+Linguistics. <https://doi.org/10.18653/v1/W19-5034>.
+
+</div>
+
+</div>

@@ -1,5 +1,6 @@
 ---
 output: github_document
+bibliography: man/bibliography.bib 
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -13,43 +14,32 @@ knitr::opts_chunk$set(
 )
 ```
 
-# muddy
-
+# muddy_db <img src="man/figures/README-hex.png" align="right" alt="" width="120" />
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+![R-CMD-check](https://github.com/TracyRage/muddy_db/workflows/R-CMD-check/badge.svg)
 <!-- badges: end -->
 
-The goal of muddy is to ...
+### Description
 
-## Installation
+**muddy_db** represents a biologically-oriented mud volcano database. 
+It aggregates mud volcano specific terminology and taxonomy, which were mined 
+from open-access articles, available in the [S2ORC](https://github.com/allenai/s2orc/)
+database [@lo-wang-2020-s2orc]. We used [ScispaCy](https://github.com/allenai/scispacy)
+[@neumann_2019_scispacy] models and [ETE3](https://github.com/etetoolkit/ete) [@cepas_2016]
+library to check taxonomy-flavored tokens against
+[NCBI Taxonomy](ftp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/) database.  
 
-You can install the released version of muddy from [CRAN](https://CRAN.R-project.org) with:
+Check our mining pipeline: [muddy_mine](https://github.com/TracyRage/muddy_mine)
 
-``` r
-install.packages("muddy")
-```
+### Data
 
-## Example
+**muddy_db** includes the following data:
 
-This is a basic example which shows you how to solve a common problem:
+* Bacterial and archaeal taxonomy (phylum, class, order, family, genus)
+* Chemistry (inorganic ions, hydrocarbons)
+* Geology (geological periods, minerals)
+* Mud volcano specific data (microbial consortia, metabolic pathways etc.)
+* Methods (amplified genes, analytics)
 
-```{r example}
-library(muddy)
-## basic example code
-```
-
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
-
-```{r cars}
-summary(cars)
-```
-
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this. You could also use GitHub Actions to re-render `README.Rmd` every time you push. An example workflow can be found here: <https://github.com/r-lib/actions/tree/master/examples>.
-
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
+### References
