@@ -53,6 +53,4 @@ Check our mining pipeline: [muddy_mine](https://github.com/TracyRage/muddy_mine)
 
 3. Open `dev/run_dev.R` and run muddy_db app.
 
-`
-
 ### References

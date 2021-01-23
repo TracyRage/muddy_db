@@ -50,8 +50,6 @@ Check our mining pipeline:
 
 3.  Open `dev/run_dev.R` and run muddy\_db app.
 
-\`
-
 ### References
 
 <div id="refs" class="references">
