@@ -15,12 +15,13 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 **muddy\_db** represents a biologically-oriented mud volcano database.
 It aggregates mud volcano specific terminology and taxonomy, which were
 mined from open-access articles, available in the
-[S2ORC](https://github.com/allenai/s2orc/) database (Lo et al. 2020). We
-used [ScispaCy](https://github.com/allenai/scispacy) (Neumann et al.
-2019) models and [ETE3](https://github.com/etetoolkit/ete)
-(Huerta-Cepas, Serra, and Bork 2016) library to check taxonomy-flavored
-tokens against [NCBI Taxonomy](ftp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/)
-database.
+[S2ORC](https://github.com/allenai/s2orc/) database, [CC BY-NC 2.0,
+unmodified](https://creativecommons.org/licenses/by-nc/2.0/) by (Lo et
+al. 2020). We used [ScispaCy](https://github.com/allenai/scispacy)
+(Neumann et al. 2019) models and
+[ETE3](https://github.com/etetoolkit/ete) (Huerta-Cepas, Serra, and Bork
+2016) library to check taxonomy-flavored tokens against [NCBI
+Taxonomy](ftp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/) database.
 
 Check our mining pipeline:
 [muddy\_mine](https://github.com/TracyRage/muddy_mine)
@@ -36,6 +37,20 @@ Check our mining pipeline:
   - Mud volcano specific data (microbial consortia, metabolic pathways
     etc.)
   - Methods (amplified genes, analytics)
+
+### Install as a package
+
+1.  Clone repository
+
+`git clone https://github.com/TracyRage/muddy_db.git`
+
+2.  Load **muddy.Rproj** project and restore dependencies
+
+`renv::restore()`
+
+3.  Open `dev/run_dev.R` and run muddy\_db app.
+
+\`
 
 ### References
 

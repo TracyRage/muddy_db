@@ -7,7 +7,7 @@ Description: App muddy_db represents a biologically-oriented mud
   which were mined from open-access articles available in the S2ORC database.
   In order to extract tokens of interest, we used scispaCy models and NCBI
   Taxonomy database.
-License: MIT + file LICENSE
+License: GPL (>= 3)
 Imports: 
     config,
     golem,

@@ -21,16 +21,6 @@ mod_articles_ui <- function(id){
   )
   
   # Create header
-  # header <- h2(
-  #   class = "ui header", semantic.dashboard::icon("database"),
-  #   div(
-  #     class = "content", "Mud volcano biological database",
-  #     div(
-  #       class = "subheader", 
-  #       "Database general information (mined articles)",
-  #       style = "font-size:20px;")),
-  #   style = "color:black;")
-  
   header <- render_header("database",
                           "Mud volcano biological database",
                           "Database general information (mined articles)")
@@ -38,8 +28,24 @@ mod_articles_ui <- function(id){
   # Create table
   table <- fluidRow(
     semantic.dashboard::column(16, DT::dataTableOutput(ns("table_output"))))
+  
+  # S2ORC copyright
+    s2orc_url <- a("S2ORC", href='https://github.com/allenai/s2orc/',
+                   style='color:black;')
+    authors_url <- a('Lo et al. 2020', 
+                     href='https://doi.org/10.18653/v1/2020.acl-main.447',
+                     style='color:black;')
+    copyright_url <- a('CC BY-NY 2.0', 
+                       href='https://creativecommons.org/licenses/by-nc/2.0/',
+                       style='color:black;')
+  
+  copyright <- fluidRow(semantic.dashboard::column(16,
+    tagList("Open-access articles were extracted from",
+          s2orc_url, "created by", authors_url, ",",
+          copyright_url, ", unmodified."))
+  )
 
-  tagList(value_boxes, header, table)
+  tagList(value_boxes, header, table, copyright)
 }
     
 #' articles Server Function
