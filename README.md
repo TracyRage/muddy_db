@@ -38,17 +38,15 @@ Check our mining pipeline:
     etc.)
   - Methods (amplified genes, analytics)
 
-### Install as a package
+### Install locally
 
-1.  Clone repository
+1.  Install package
 
-`git clone https://github.com/TracyRage/muddy_db.git`
+`remotes::install_github('TracyRage/muddy_db')`
 
-2.  Load **muddy.Rproj** project and restore dependencies
+2.  Run **muddy\_db**
 
-`renv::restore()`
-
-3.  Open `dev/run_dev.R` and run muddy\_db app.
+`muddy::run_app()`
 
 ### References
 
