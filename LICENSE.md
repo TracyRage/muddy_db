@@ -7,6 +7,7 @@ The muddy_db package includes other open source software components. The followi
 - dplyr, https://github.com/tidyverse/dplyr
 - leaflet, https://github.com/rstudio/leaflet
 - golem, https://github.com/ThinkR-open/golem
+- S2ORC, https://github.com/allenai/s2orc, by [Lo et al. 2020](10.18653/v1/2020.acl-main.447), [CC BY-NC 2.0](https://creativecommons.org/licenses/by-nc/2     .0/), unmodified.
 
 
 ------------------------------------------------------
