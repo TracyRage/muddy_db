@@ -24,8 +24,7 @@ mod_contact_ui <- function(id){
     div(class = "header","Remizovschi Alexei"),
     div(class = "meta", "Babeș-Bolyai University, Cluj-Napoca, RO"),
     div(class = "meta", "alexei.remizovschi@protonmail.ch"),
-    div(class = "meta", "alexei.remizovschi@ubbcluj.com"),
-    div(class = "description", "orcid.org/0000-0003-4273-6051")))))
+    div(class = "meta", "orcid.org/0000-0003-4273-6051")))))
   
   tagList(header, card_id)
 }

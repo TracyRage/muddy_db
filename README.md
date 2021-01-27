@@ -23,6 +23,9 @@ al. 2020). We used [ScispaCy](https://github.com/allenai/scispacy)
 2016) library to check taxonomy-flavored tokens against [NCBI
 Taxonomy](ftp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/) database.
 
+Check muddy\_db web app:
+[muddy\_db](https://muddy-db.shinyapps.io/muddy/)
+
 Check our mining pipeline:
 [muddy\_mine](https://github.com/TracyRage/muddy_mine)
 

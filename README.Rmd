@@ -29,6 +29,8 @@ database, [CC BY-NC 2.0, unmodified](https://creativecommons.org/licenses/by-nc/
 [@neumann_2019_scispacy] models and [ETE3](https://github.com/etetoolkit/ete) [@cepas_2016]
 library to check taxonomy-flavored tokens against [NCBI Taxonomy](ftp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/) database.  
 
+Check muddy_db web app: [muddy_db](https://muddy-db.shinyapps.io/muddy/)
+
 Check our mining pipeline: [muddy_mine](https://github.com/TracyRage/muddy_mine)
 
 ### Data
