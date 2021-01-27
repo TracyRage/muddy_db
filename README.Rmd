@@ -18,6 +18,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 ![R-CMD-check](https://github.com/TracyRage/muddy_db/workflows/R-CMD-check/badge.svg)
+[![DOI](https://zenodo.org/badge/330902563.svg)](https://zenodo.org/badge/latestdoi/330902563)
 <!-- badges: end -->
 
 ### Description
