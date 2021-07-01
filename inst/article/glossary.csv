@@ -1,0 +1,45 @@
+term,description,category
+ANME,ANaerobic Methanotrophic,Mud volcano
+AOM,Anaerobic Oxidation of Methane,Mud volcano
+SRB,Sulfate-Reducing Bacteria,Mud volcano
+Anammox,Anaerobic Ammonium Oxidation,Mud volcano
+S-DAMO,Sulfate-Dependent Anaerobic Methane Oxidation,Mud volcano
+M-DAMO,Metal-Dependent Anaerobic Methane Oxidation,Mud volcano
+N-DAMO,Nitrate/Nitrite-Dependent Anaerobic Methane Oxidation,Mud volcano
+AES,Atomic Emission Spectroscopy,Mineralogy
+EMPA,Electron Micro Probe Analyzer,Mineralogy
+PIXE,Proton-Induced X-ray Emission,Mineralogy
+PIGE,Prompt γ-rays Induced with Charged Particles,Mineralogy
+PCR,Polymerase Chain Reaction,Microbiology
+MLPA,Multiplex Ligation-dependent Probe Amplification ,Microbiology
+qPCR,Quantitative Polymerase Chain Reaction,Microbiology
+RT-PCR,Real-Time Polymerase Chain Reaction,Microbiology
+OE-PCR,Overlap Extension Polymerase Chain Reaction,Microbiology
+mcrA,methyl coenzyme-M reductase,Hydrocarbon metabolism relevant gene
+pmoA,methane monooxygenase subunit A,Hydrocarbon metabolism relevant gene
+dsrB,sulfite reductase subunit beta,Hydrocarbon metabolism relevant gene
+16S,16S ribosomal RNA,Hydrocarbon metabolism relevant gene
+aprA,alkaline metalloproteinase,Hydrocarbon metabolism relevant gene
+nifH,nitrogenase reductase,Hydrocarbon metabolism relevant gene
+almA,flavin-binding monooxygenase ,Hydrocarbon metabolism relevant gene
+ladA,alkane monoxygenase,Hydrocarbon metabolism relevant gene
+ebdA,alpha-subunit of ethylbenzene dehydrogenase,Hydrocarbon metabolism relevant gene
+assA,alkylsuccinate synthase,Hydrocarbon metabolism relevant gene
+bssA,benzylsuccinate synthase alpha subunit,Hydrocarbon metabolism relevant gene
+nmsA,naphthyl-2-methyl-succinate synthase alpha subunit,Hydrocarbon metabolism relevant gene
+SMRT,single-molecule real-time,Sequencing
+GC,gas chromatography,Analytics
+GC-MS,gas chromatography–mass spectrometry,Analytics
+HPLC,high-performance liquid chromatography,Analytics
+GC-IRMS,gas chromatography isotope ratio mass spectrometer ,Analytics
+FTIR,fourier-transform infrared spectroscopy,Analytics
+RAMAN,Raman spectroscopy,Analytics
+ICP-MS,inductively coupled plasma mass spectrometry,Analytics
+UV-VIS,ultraviolet–visible spectrophotometry,Analytics
+MALDI,matrix-assisted laser desorption/ionization,Analytics
+SEM,scanning electron microscope,Microscopy
+TEM,transmission electron microscopy,Microscopy
+SIP,stable-isotope probing,Analytics
+DGGE,denaturing gradient gel electrophoresis,Microbiology
+TGGE,temperature gradient gel electrophoresis,Microbiology
+PAGE,polyacrylamide gel electrophoresis,Microbiology

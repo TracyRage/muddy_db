@@ -42,7 +42,8 @@ mod_articles_ui <- function(id){
   copyright <- fluidRow(semantic.dashboard::column(16,
     tagList("Open-access articles were extracted from",
           s2orc_url, "created by", authors_url, ",",
-          copyright_url, ", unmodified."))
+          copyright_url, ", unmodified.", "Versions: S2ORC (20200705v1).",
+          "spaCy (2.3.2), ScispaCy (0.3.0), NCBI taxonomy database (20 Nov, 2020)."))
   )
 
   tagList(value_boxes, header, table, copyright)
@@ -55,14 +56,20 @@ mod_articles_ui <- function(id){
 mod_articles_server <- function(input, output, session){
   ns <- session$ns
   
+  createLink <- function(val) {
+    sprintf('<a href="https://doi.org/%s" target="_blank" class="btn btn-primary"><font color="blue">%s</font></a>',val, val)
+  }
+  
   # Load article table
   article_table <- reactive({
-    readr::read_csv(app_sys('article/metadata.csv'))
+    readr::read_csv(app_sys('article/metadata.csv')) %>% 
+      mutate(doi = createLink(doi))
   })
   
   # Metadata table
   output$table_output <- DT::renderDataTable(article_table(),
-                                         options = list(pageLength = 10))
+                                         options = list(pageLength = 10),
+                                         escape=FALSE)
   
   # Titles mined box
   output$titles <- renderValueBox({

@@ -34,6 +34,7 @@ golem::add_module( name = "volcano" ) # Name of the module
 golem::add_module( name = "geology" ) # Name of the module
 golem::add_module( name = "methods" ) # Name of the module
 golem::add_module( name = "contact" ) # Name of the module
+golem::add_module( name = "glossary" ) # Name of the module
 golem::add_module( name = "abstract_archaea" ) # Name of the module
 golem::add_module( name = "abstract_bacteria" ) # Name of the module
 golem::add_module( name = "abstract_chemistry" ) # Name of the module

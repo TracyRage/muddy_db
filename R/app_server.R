@@ -34,6 +34,9 @@ app_server <- function( input, output, session ) {
   # Contact server-side
   callModule(mod_contact_server, "contact_ui_1")
   
+  # Glossary server-side
+  mod_glossary_server("glossary_ui_1")
+             
   # Archaea abstract server-side
   callModule(mod_abstract_archaea_server, "abstract_archaea_ui_1")
   

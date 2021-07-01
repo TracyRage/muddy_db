@@ -34,7 +34,9 @@ app_ui <- function(request) {
                menuSubItem(tabName="abs_chem", "Chemistry"),
                menuSubItem(tabName="abs_volcano", "Mud Volcano")),
       menuItem(tabName = "contact", "Contact",
-               icon=semantic.dashboard::icon('at'))))
+               icon=semantic.dashboard::icon('at')),
+      menuItem(tabName = "glossary", "Glossary", 
+               icon=semantic.dashboard::icon("book"))))
   
   # Create dashboard header 
   dashboard_head <- dashboardHeader(color = "black",
@@ -66,6 +68,7 @@ app_ui <- function(request) {
       tabItem(tabName = "methods",  mod_methods_ui("methods_ui_1")),
       tabItem(tabName = "geology", mod_geology_ui("geology_ui_1")),
       tabItem(tabName = "contact",  mod_contact_ui("contact_ui_1")),
+      tabItem(tabName = "glossary",  mod_glossary_ui("glossary_ui_1")),
       tabItem(tabName = "abs_archaea", 
               mod_abstract_archaea_ui("abstract_archaea_ui_1")),  
       tabItem(tabName = "abs_bacteria", 
