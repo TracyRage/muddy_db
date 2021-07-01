@@ -25,7 +25,7 @@ al. 2020). We used [ScispaCy](https://github.com/allenai/scispacy)
 Taxonomy](ftp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/) database.
 
 Check muddy\_db web app:
-[muddy\_db](https://muddy-db.shinyapps.io/muddy/)
+[muddy\_db](https://muddy-db.shinyapps.io/muddy_db/)
 
 Check our mining pipeline:
 [muddy\_mine](https://github.com/TracyRage/muddy_mine)
