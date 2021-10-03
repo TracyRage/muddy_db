@@ -9,16 +9,16 @@ pmid,title,geo_time,minerals
 24723919,Spatial variations of community structures and methane cycling across a transect of Lei-Gong-Hou mud volcanoes in eastern Taiwan,-,-
 17051217,Novel microbial communities of the Haakon Mosby mud volcano and their role as a methane sink,Pleistocene (1),-
 28396389,Subduction zone forearc serpentinites as incubators for deep microbial life,-,-
-29674649,Mud extrusion and ring-fault gas seepage – upward branching fluid discharge at a deep-sea mud volcano,"Miocene (2), Pleistocene (1), Pliocene (1), Cretaceous (2)",illite (1)
+29674649,Mud extrusion and ring-fault gas seepage – upward branching fluid discharge at a deep-sea mud volcano,"Miocene (2), Pleistocene (1), Pliocene (1), Cretaceous (2)",Illite (1)
 22170423,Viral infections stimulate the metabolism and shape prokaryotic assemblages in submarine mud volcanoes,-,-
-22347218,A System for Incubations at High Gas Partial Pressure,Miocene (1),quartz (2)
+22347218,A System for Incubations at High Gas Partial Pressure,Miocene (1),Quartz (2)
 22882187,Anaerobic oxidation of methane in hypersaline cold seep sediments,-,-
 20334908,Colonization of organic substrates deployed in deep-sea reducing habitats by symbiotic species and associated fauna,-,-
 17225386,Acoustic scattering from mud volcanoes and carbonate mounds,-,-
-18378658,"Biogeochemistry and Community Composition of Iron- and Sulfur-Precipitating Microbial Mats at the Chefren Mud Volcano (Nile Deep Sea Fan, Eastern Mediterranean)",-,pyrite (2)
+18378658,"Biogeochemistry and Community Composition of Iron- and Sulfur-Precipitating Microbial Mats at the Chefren Mud Volcano (Nile Deep Sea Fan, Eastern Mediterranean)",-,Pyrite (2)
 27103730,"Draft Genome Sequence of Methanoculleus sediminis S3FaT, a Hydrogenotrophic Methanogen Isolated from a Submarine Mud Volcano in Taiwan",-,-
 29163423,"Microbial Community Composition and Functional Capacity in a Terrestrial Ferruginous, Sulfate-Depleted Mud Volcano",-,-
-22006301,"Early Archean serpentine mud volcanoes at Isua, Greenland, as a niche for early life",-,calcite (1)
+22006301,"Early Archean serpentine mud volcanoes at Isua, Greenland, as a niche for early life",-,Calcite (1)
 24614846,"Methanococcoides vulcani sp. nov., a marine methylotrophic methanogen that uses betaine, choline and N,N-dimethylethanolamine for methanogenesis, isolated from a mud volcano, and emended description of the genus Methanococcoides.",-,-
 21976991,"Chemosymbiotic bivalves from the mud volcanoes of the Gulf of Cadiz, NE Atlantic, with descriptions of new species of Solemyidae, Lucinidae and Vesicomyidae",-,-
 28151382,"Pyrobaculum igneiluti sp. nov., a novel anaerobic hyperthermophilic archaeon that reduces thiosulfate and ferric iron",-,-
@@ -32,9 +32,9 @@ pmid,title,geo_time,minerals
 26667806,"A chemosynthetic weed: the tubeworm Sclerolinum contortum is a bipolar, cosmopolitan species",Cretaceous (1),-
 27807343,Increased methane emissions from deep osmotic and buoyant convection beneath submarine seeps as climate warms,-,-
 19770067,Structural characterization of hemoglobins from Monilifera and Frenulata tubeworms (Siboglinids): First discovery of giant hexagonal-bilayer hemoglobin in the former “Pogonophora” group,-,-
-22739492,Metabolic stratification driven by surface and subsurface interactions in a terrestrial mud volcano,-,pyrite (1)
+22739492,Metabolic stratification driven by surface and subsurface interactions in a terrestrial mud volcano,-,Pyrite (1)
 28771029,Methane Seepage on Mars: Where to Look and Why,-,-
-28944134,CO2 flux from Javanese mud volcanism,"Miocene (2), Paleocene (1), Eocene (1)",pyrite (1)
+28944134,CO2 flux from Javanese mud volcanism,"Miocene (2), Paleocene (1), Eocene (1)",Pyrite (1)
 26394007,Activity and interactions of methane seep microorganisms assessed by parallel transcription and FISH-NanoSIMS analyses,-,-
 28676800,Atribacteria from the Subseafloor Sedimentary Biosphere Disperse to the Hydrosphere through Submarine Mud Volcanoes,Eocene (1),-
 15803662,"Novel archaeal macrocyclic diether core membrane lipids in a methane-derived carbonate crust from a mud volcano in the Sorokin Trough, NE Black Sea.",Miocene (1),-
@@ -48,11 +48,20 @@ pmid,title,geo_time,minerals
 28708168,Portable laser spectrometer for airborne and ground-based remote sensing of geological CO_2 emissions,-,-
 29928689,Deep-biosphere methane production stimulated by geofluids in the Nankai accretionary complex,Miocene (4),-
 30154496,In situ development of a methanotrophic microbiome in deep-sea sediments,-,-
-30165492,Steep redox gradient and biogeochemical cycling driven by deeply sourced fluids and gases in a terrestrial mud volcano,-,"pyrite (9), Pyrite (2)"
-31281306,Deep-Sourced Fluids From a Convergent Margin Host Distinct Subseafloor Microbial Communities That Change Upon Mud Flow Expulsion,-,illite (1)
+30165492,Steep redox gradient and biogeochemical cycling driven by deeply sourced fluids and gases in a terrestrial mud volcano,-,Pyrite (11)
+31281306,Deep-Sourced Fluids From a Convergent Margin Host Distinct Subseafloor Microbial Communities That Change Upon Mud Flow Expulsion,-,Illite (1)
 25908706,"Aquipuribacter nitratireducens sp. nov., isolated from a soil sample of a mud volcano",-,-
 21335391,Archaeal Populations in Hypersaline Sediments Underlying Orange Microbial Mats in the Napoli Mud Volcano,-,-
 27394559,Two new species of scale worms (Polychaeta: Aphroditiformia) from deep-sea habitats in the Gulf of Cadiz (NE Atlantic),-,-
 31772218,Discriminative biogeochemical signatures of methanotrophs in different chemosynthetic habitats at an active mud volcano in the Canadian Beaufort Sea,-,-
-31942015,Discharge of deeply rooted fluids from submarine mud volcanism in the Taiwan accretionary prism,-,"Illite (1), illite (3), Kaolinite (1)"
-31988316,Mud volcanoes and the presence of PAHs,-,"quartz (1), calcite (1), muscovite (1), feldspar (1)"
+31942015,Discharge of deeply rooted fluids from submarine mud volcanism in the Taiwan accretionary prism,-,"Illite (4), Kaolinite (1)"
+31988316,Mud volcanoes and the presence of PAHs,-,"Quartz (1), Calcite (1), Muscovite (1), Feldspar (1)"
+28676800,Atribacteria from the Subseafloor Sedimentary Biosphere Disperse to the Hydrosphere through Submarine Mud Volcanoes,Eocene (1),-
+29163423,"Microbial Community Composition and Functional Capacity in a Terrestrial Ferruginous, Sulfate-Depleted Mud Volcano",-,-
+25807542,The Unique Chemistry of Eastern Mediterranean Water Masses Selects for Distinct Microbial Communities by Depth,-,-
+29928689,Deep-biosphere methane production stimulated by geofluids in the Nankai accretionary complex,-,-
+28944134,CO2 flux from Javanese mud volcanism,"Miocene (2), Paleocene (1), Eocene (1)",Pyrite (1)
+27881974,The Microbiome and Occurrence of Methanotrophy in Carnivorous Sponges,-,-
+25763031,Plant growth promoting capability and genetic diversity of bacteria isolated from mud volcano and lime cave of Andaman and Nicobar Islands,-,-
+31281306,Deep-Sourced Fluids From a Convergent Margin Host Distinct Subseafloor Microbial Communities That Change Upon Mud Flow Expulsion,-,Illite (1)
+27103730,"Draft Genome Sequence of Methanoculleus sediminis S3FaT, a Hydrogenotrophic Methanogen Isolated from a Submarine Mud Volcano in Taiwan",-,-
