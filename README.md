@@ -30,17 +30,23 @@ Check muddy\_db web app:
 Check our mining pipeline:
 [muddy\_mine](https://github.com/TracyRage/muddy_mine)
 
+Check the published [PeerJ
+article](https://doi.org/10.7717/peerj.12463).
+
+Cite this work
+`Remizovschi A, Carpa R. 2021. Biologically-oriented mud volcano database: muddy_db. PeerJ 9:e12463 https://doi.org/10.7717/peerj.12463`.
+
 ### Data
 
 **muddy\_db** includes the following data:
 
-  - Bacterial and archaeal taxonomy (phylum, class, order, family,
+-   Bacterial and archaeal taxonomy (phylum, class, order, family,
     genus)
-  - Chemistry (inorganic ions, hydrocarbons)
-  - Geology (geological periods, minerals)
-  - Mud volcano specific data (microbial consortia, metabolic pathways
+-   Chemistry (inorganic ions, hydrocarbons)
+-   Geology (geological periods, minerals)
+-   Mud volcano specific data (microbial consortia, metabolic pathways
     etc.)
-  - Methods (amplified genes, analytics)
+-   Methods (amplified genes, analytics)
 
 ### Install locally
 
@@ -54,18 +60,18 @@ Check our mining pipeline:
 
 ### References
 
-<div id="refs" class="references">
+<div id="refs" class="references csl-bib-body hanging-indent">
 
-<div id="ref-cepas_2016">
+<div id="ref-cepas_2016" class="csl-entry">
 
-Huerta-Cepas, Jaime, François Serra, and Peer Bork. 2016. “ETE 3:
-Reconstruction, Analysis, and Visualization of Phylogenomic Data.”
-*Molecular Biology and Evolution* 33 (6): 1635–8.
-<https://doi.org/10.1093/molbev/msw046>.
+Huerta-Cepas, Jaime, François Serra, and Peer Bork. 2016. “<span
+class="nocase">ETE 3: Reconstruction, Analysis, and Visualization of
+Phylogenomic Data</span>.” *Molecular Biology and Evolution* 33 (6):
+1635–38. <https://doi.org/10.1093/molbev/msw046>.
 
 </div>
 
-<div id="ref-lo-wang-2020-s2orc">
+<div id="ref-lo-wang-2020-s2orc" class="csl-entry">
 
 Lo, Kyle, Lucy Lu Wang, Mark Neumann, Rodney Kinney, and Daniel Weld.
 2020. “S2ORC: The Semantic Scholar Open Research Corpus.” In
@@ -76,11 +82,11 @@ Computational Linguistics.
 
 </div>
 
-<div id="ref-neumann_2019_scispacy">
+<div id="ref-neumann_2019_scispacy" class="csl-entry">
 
 Neumann, Mark, Daniel King, Iz Beltagy, and Waleed Ammar. 2019.
 “ScispaCy: Fast and Robust Models for Biomedical Natural Language
-Processing.” In *Proceedings of the 18th Bionlp Workshop and Shared
+Processing.” In *Proceedings of the 18th BioNLP Workshop and Shared
 Task*, 319–27. Florence, Italy: Association for Computational
 Linguistics. <https://doi.org/10.18653/v1/W19-5034>.
 

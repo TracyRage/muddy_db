@@ -34,6 +34,11 @@ Check muddy_db web app: [muddy_db](https://muddy-db.shinyapps.io/muddy_db/)
 
 Check our mining pipeline: [muddy_mine](https://github.com/TracyRage/muddy_mine)
 
+Check the published [PeerJ article](https://doi.org/10.7717/peerj.12463).
+
+Cite this work `Remizovschi A, Carpa R. 2021. Biologically-oriented mud volcano database: muddy_db. PeerJ 9:e12463 https://doi.org/10.7717/peerj.12463`.
+
+
 ### Data
 
 **muddy_db** includes the following data:
